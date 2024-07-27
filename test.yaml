@@ -1,0 +1,7 @@
+jobs:
+- job: ci 
+  displauName: Docker Build
+  pool: My-agent
+  steps:
+    - task: install Docker
+      inputs:
